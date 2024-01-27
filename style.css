@@ -1,26 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-    margin: 0;
     font-family: Roboto, sans-serif;
 }
+.header, .hero, .footer {
+    margin: 0;
+    background-color: #1f2937;
+}
 
-.header,
-.footer {
-    background-color: #1F2937;
+.heaader, .footer {
+    display: flex;
+    width: 100vw;
+    height: 50px;
 }
 
 .header {
-
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: space-between;
 }
-.random img {
-    width: 20%;
-    height: 20%;
+
+.hero {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: #3882f6;
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+}
+
+.content > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+}
+
+.big {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.small {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+ul {
+    text-decoration-style: none;
+    list-style-type: none;
+    gap: 16px;
 }
 
 a {
+    text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration: none;
-    padding: 8px;
 }
