@@ -8,10 +8,11 @@ body {
     background-color: #1f2937;
 }
 
-.heaader, .footer {
+.header, .footer {
     display: flex;
     width: 100vw;
     height: 50px;
+    padding: 16px;
 }
 
 .header {
