@@ -2,6 +2,19 @@
 
 body {
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 25vh;
 }
 .header, .hero, .footer {
     margin: 0;
@@ -18,31 +31,52 @@ body {
 .header {
     font-size: 24px;
     color: #f9faf8;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
 }
 
 .hero {
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 30vh;
+}
+
+.left {
+    display: flex;
+    width: 30vw;
+    flex-wrap: wrap;
+}
+
+.hero > img {
+    max-height: 20vh;
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-top: 32px;
+    margin-bottom: 0px;
 }
 
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0px;
 }
 
 button {
-    color: #3882f6;
-    border-radius: 15px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 4px 16px;
 }
 
 .content {
     display: flex;
+    justify-content: center;
 }
 
 .content > p {
@@ -92,6 +126,7 @@ ul {
     text-decoration-style: none;
     list-style-type: none;
     gap: 16px;
+    display: flex;
 }
 
 a {
