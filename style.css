@@ -142,6 +142,8 @@ body {
 
 .action {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-card {
@@ -149,18 +151,18 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
-    margin: 50px 16px;
-    /* padding: 50px 150px; */
+    margin: 150px 16px;
     border-radius: 10px;
 }
 
 .action-txt {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
-    margin: 100px 16px;
-
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .action-card > button {
@@ -168,7 +170,7 @@ body {
     background-color: #3882f6;
     border-radius: 10px;
     margin: 100px 16px;
-    width: 115x;
+    width: 115px;
     height: 35px;
 }
 
@@ -176,11 +178,15 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #f9faf8;
+    margin: 0px;
+    display: flex;
+    align-self: flex-start;
 }
 
 .small {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px;
 }
 
 .footer {
