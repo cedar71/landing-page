@@ -64,11 +64,13 @@ body {
     margin-top: 0px;
 }
 
-button {
+.left > button {
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 10px;
     padding: 8px 32px;
+    width: 115px;
+    height: 35px;
 }
 
 .content {
@@ -140,7 +142,34 @@ button {
 
 .action {
     display: flex;
+}
+
+.action-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
+    margin: 50px 16px;
+    /* padding: 50px 150px; */
+    border-radius: 10px;
+}
+
+.action-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px 16px;
+
+}
+
+.action-card > button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 16px;
+    width: 115x;
+    height: 35px;
 }
 
 .big {
