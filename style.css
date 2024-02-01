@@ -5,10 +5,6 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /* min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;*/
 }
 
 .container {
@@ -39,7 +35,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* max-height: 30vh; */
 }
 
 .left {
@@ -98,8 +93,6 @@ body {
     display: flex;
     margin: 16px;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: flex-start; */
 }
 
 .box > img {
@@ -151,8 +144,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
-    margin: 150px 16px;
+    margin: 50px 16px;
     border-radius: 10px;
+    padding-right: 100px;
+    width: 850px;
+    height: 100px;
 }
 
 .action-txt {
